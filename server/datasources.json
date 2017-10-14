@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "inventory": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "inventorydb",
+    "password": "",
+    "name": "inventory",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
