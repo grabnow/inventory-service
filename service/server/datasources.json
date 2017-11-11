@@ -1,11 +1,8 @@
 {
   "db": {
-    "name": "db",
-    "connector": "memory"
-  },
-  "inventory": {
-    "host": "localhost",
-    "port": 27017,
-    "connector": "mongodb"
+    "connector": "mongodb",
+    "host":"127.0.0.222",
+    "port":"27018",
+    "lazyConnect": false
   }
 }

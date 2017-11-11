@@ -4,11 +4,11 @@ services:
   service:
     build: service
     command: npm start
+    network_mode: "host"
     ports:
       - 3000:3000
-    links:
-      - db
   db:
+    dns: 127.0.0.222
     image: mongo
     ports:
-      - 27017
+      - 27018:27017
